@@ -1,3 +1,5 @@
+<h2>MADGRAD Optimization Algorithm For Tensorflow</h2>
+
 This package implements the MadGrad Algorithm proposed in <a href="https://arxiv.org/abs/2101.11075">Adaptivity without Compromise: A Momentumized, Adaptive, Dual Averaged Gradient Method for Stochastic Optimization</a> (Aaron Defazio and Samy Jelassi, 2021).
 
 
@@ -62,7 +64,7 @@ pip install tf-madgrad
 
 To use the optimizer in any tf.keras model, you just need to import and instantiate the ```MadGrad``` optimizer from the `tf_madgrad` package.
 ```python
-from tf_madgrad import MadGrad
+from madgrad import MadGrad
 
 # Create the architecture
 inp = tf.keras.layers.Input(shape=shape)
