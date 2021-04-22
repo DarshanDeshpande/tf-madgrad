@@ -37,8 +37,11 @@ This package implements the MadGrad Algorithm proposed in <a href="https://arxiv
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The MadGrad algorithm of optimization uses Dual averaging of gradients along with momentum based adaptivity to attain results that match Adam or SGD + momentum based algorithms. This project offers a Tensorflow implementation of the algorithm along with a few usage examples and tests.
-  
+The MadGrad algorithm of optimization uses Dual averaging of gradients along with momentum based adaptivity to attain results that match or outperform Adam or SGD + momentum based algorithms. This project offers a Tensorflow implementation of the algorithm along with a few usage examples and tests.
+<br>
+
+<img src="https://i.imgur.com/czLMClK.jpg" height="400px" width="700px"></img>
+<br><br>
 
 ## Prerequisites
 
@@ -89,7 +92,6 @@ See a MNIST example <a href="https://github.com/DarshanDeshpande/tf-madgrad/blob
 
 Any and all contributions are welcome. Please raise an issue if the optimizer gives incorrect results or crashes unexpectedly during training. 
 <br>
-For more guidelines, refer to `CONTRIBUTING`
 
 <!-- LICENSE -->
 ## License
