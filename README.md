@@ -28,7 +28,7 @@ This package implements the MadGrad Algorithm proposed in <a href="https://arxiv
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Citations</a></li>
+    <li><a href="#citations">Citations</a></li>
   </ol>
 </details>
 
@@ -40,7 +40,7 @@ This package implements the MadGrad Algorithm proposed in <a href="https://arxiv
 The MadGrad algorithm of optimization uses Dual averaging of gradients along with momentum based adaptivity to attain results that match or outperform Adam or SGD + momentum based algorithms. This project offers a Tensorflow implementation of the algorithm along with a few usage examples and tests.
 <br>
 
-<img src="https://i.imgur.com/czLMClK.jpg" height="400px" width="700px"></img>
+<img src="https://i.imgur.com/czLMClK.jpg" height="50%" width="90%"></img>
 <br><br>
 
 ## Prerequisites
