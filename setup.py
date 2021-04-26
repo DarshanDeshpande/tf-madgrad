@@ -11,7 +11,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="tf-madgrad",
-    version="1.0.0",
+    version="1.0.1",
     description="A tf.keras implementation of the MADGRAD optimization algorithm",
     long_description=long_description,
     long_description_content_type="text/markdown",

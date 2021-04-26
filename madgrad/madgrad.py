@@ -73,7 +73,7 @@ class MadGrad(optimizer_v2.OptimizerV2):
         weight_decay = array_ops.identity(self._get_hyper("weight_decay", var_dtype))
 
         apply_state[(var_device, var_dtype)] = dict(
-            epsilon=ops.convert_to_tensor_v2_with_dispatch(self.epsilon, var_dtype),
+            epsilon=ops.convert_to_tensor_v2(self.epsilon, var_dtype),
             momentum=momentum,
             weight_decay=weight_decay,
         )
