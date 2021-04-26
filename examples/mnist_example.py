@@ -44,7 +44,7 @@ batch_size = 128
 epochs = 15
 
 model.compile(
-    loss="categorical_crossentropy", optimizer=MadGrad(lr=0.01), metrics=["accuracy"]
+    loss="categorical_crossentropy", optimizer=MadGrad(lr=1e-3), metrics=["accuracy"]
 )
 
 model.fit(x_train, y_train, batch_size=batch_size, epochs=epochs, validation_split=0.1)
