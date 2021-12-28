@@ -1,8 +1,8 @@
 """Madgrad optimizer implementation."""
 
 from tensorflow.python.framework import ops
-from tensorflow.python.keras import backend_config
-from tensorflow.python.keras.optimizer_v2 import optimizer_v2
+from keras import backend_config
+from keras.optimizer_v2 import optimizer_v2
 from tensorflow.python.ops import array_ops
 from tensorflow.python.ops import math_ops
 from tensorflow.python.ops import state_ops
